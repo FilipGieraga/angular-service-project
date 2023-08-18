@@ -1,0 +1,234 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Headphones",
+      "img": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "rating": 4.3
+    },
+    {
+      "id": 2,
+      "name": "SmartWatch",
+      "img": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1099&q=80",
+      "rating": 3.78
+    },
+    {
+      "id": 3,
+      "name": "iPhone 9",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmRQPFRPpRRQ5jjI6FlzO6aD3H5TAz2jcKsdzC39D2aT40Hkx6vBdHTH7i0mMCVGZ6Hc&usqp=CAU",
+      "rating": 4.15
+    },
+    {
+      "id": 4,
+      "name": "HP Pavilion 15-DK1056WM",
+      "img": "https://www.hpmania.com.py/uploads/product/1623779487_1623779487.jpg",
+      "rating": 3.54
+    },
+    {
+      "id": 5,
+      "name": "Infinix INBOOK",
+      "img": "https://gagadget.com/media/cache/1a/72/1a723f10da53f6ba0ce482548f3cd7c1.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "name": "Fog Scent Xpressio Perfume",
+      "img": "https://checklist.com.bd/public/uploads/all/2Eh1nhAyqbLkjEwuSELzYVIZOQCmnf51CkvG0xcW.jpg",
+      "rating": 2.43
+    },
+    {
+      "id": 7,
+      "name": "Orange Essence Food Flavou",
+      "img": "https://www.foodieflavours.com/wp-content/uploads/2012/02/Orange-BottleBox-2020-GT.jpg",
+      "rating": 1.7
+    },
+    {
+      "id": 8,
+      "name": "Key Holder",
+      "img": "https://m.media-amazon.com/images/I/61--wskbYTL.jpg",
+      "rating": 4.45
+    },
+    {
+      "id": 9,
+      "name": "Cereals",
+      "img": "https://crunchysnack.pl/cdn/shop/products/8404_1000x.jpg?v=1679999645",
+      "rating": 2.1
+    },
+    {
+      "id": 123,
+      "name": "Plant Hanger For Home",
+      "img": "https://www.thespruce.com/thmb/hAULFnWHcCYHjLJixfTOtqx_v0k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/diy-plant-hangers-you-can-make-5183699-hero-d50f3aaf60d54e808a99d010ac4b8f7d.JPG",
+      "rating": 4.11
+    },
+    {
+      "id": 10,
+      "name": "Bagpack Nike",
+      "img": "https://img01.ztat.net/article/spp-media-p1/6ab671acbf1041a393dbfa357d51b950/bea3fde500fb45658555f918345aba98.jpg?imwidth=762&filter=packshot",
+      "rating": 2.12
+    },
+    {
+      "id": 11,
+      "name": "Puma shoes",
+      "img": "https://i.etsystatic.com/36476623/r/il/edd889/4366692799/il_794xN.4366692799_jh3b.jpg",
+      "rating": 3.23
+    },
+    {
+      "id": 12,
+      "name": "Generic T-shirt",
+      "img": "https://ih1.redbubble.net/image.4288045944.5026/ssrco,classic_tee,mens,fafafa:ca443f4786,front_alt,square_product,600x600.jpg",
+      "rating": 4.92
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productName": "Heaphones",
+      "feedbackText": "Product is Excelent",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "productName": "SmartWatch",
+      "feedbackText": "Product is decent, but could be better.",
+      "rating": 3
+    },
+    {
+      "feedbackText": "Not bad",
+      "rating": "3",
+      "productName": "Headphones",
+      "id": 3
+    },
+    {
+      "feedbackText": "Works fine",
+      "rating": "3",
+      "productName": "Plant Hanger For Home",
+      "id": 4
+    },
+    {
+      "feedbackText": "Seen better laptops overall",
+      "rating": "1",
+      "productName": "HP Pavilion 15-DK1056WM",
+      "id": 5
+    },
+    {
+      "feedbackText": "It's fine",
+      "rating": "4",
+      "productName": "Cereals",
+      "id": 6
+    },
+    {
+      "feedbackText": "Don't use it",
+      "rating": "1",
+      "productName": "Orange Essence Food Flavou",
+      "id": 7
+    },
+    {
+      "feedbackText": "Too generic",
+      "rating": 5,
+      "productName": "Generic T-shirt",
+      "id": 8
+    },
+    {
+      "feedbackText": "Puma is bad",
+      "rating": "2",
+      "productName": "Puma shoes",
+      "id": 9
+    },
+    {
+      "feedbackText": "review 1 test",
+      "rating": 5,
+      "productName": "Headphones",
+      "id": 10
+    }
+  ],
+  "userInfos": [
+    {
+      "id": 1,
+      "name": "Filip",
+      "surname": "Gieraga",
+      "address": "Łódź",
+      "email": "testowe123@gmail.com",
+      "phone": 8484838393,
+      "contactMethod": "Email",
+      "cardDetails": "31232132123321312"
+    },
+    {
+      "name": "Filip",
+      "surname": "Gieraga",
+      "address": "Łódź",
+      "email": "testowe123@gmail.com",
+      "phone": 8484838393,
+      "contactMethod": "Email",
+      "cardDetails": "31232132123321312",
+      "id": 2
+    },
+    {
+      "name": "Janusz",
+      "surname": "sdafdsf",
+      "address": "sadfasdf",
+      "email": "test12@gmail.com",
+      "phone": "",
+      "contactMethod": "Email",
+      "cardDetails": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "surname": "",
+      "address": "łęczyca",
+      "email": "fasdffdas@afsd.com",
+      "phone": "543432123",
+      "contactMethod": "Email",
+      "cardDetails": "3123123213",
+      "id": 4
+    },
+    {
+      "name": "",
+      "surname": "",
+      "address": "fsafddf",
+      "email": "test123@gmail.com",
+      "phone": "321321",
+      "contactMethod": "Email",
+      "cardDetails": "321312332",
+      "id": 5
+    },
+    {
+      "email": "test12345@gm.com",
+      "contactMethod": "Email",
+      "id": 6
+    },
+    {
+      "name": "Janusz",
+      "surname": "",
+      "address": "łęczyca",
+      "email": "test1@gmail.com",
+      "phone": "",
+      "contactMethod": "Email",
+      "cardDetails": "",
+      "id": 7
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "orderId": 12,
+      "feedbackText": "Not bad order",
+      "overalExperience": 3,
+      "serviceQuality": 4
+    },
+    {
+      "orderId": "321",
+      "feedbackText": "Very good",
+      "overalExperience": "2",
+      "serviceQuality": "4",
+      "id": 2
+    },
+    {
+      "orderId": "3213123",
+      "feedbackText": "Something",
+      "overalExperience": "1",
+      "serviceQuality": "1",
+      "id": 3
+    }
+  ]
+}

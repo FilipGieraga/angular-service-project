@@ -1,0 +1,122 @@
+<!-- component -->
+<div
+  class="bg-white shadow-md mx-auto w-[100%] max-w-[1000px] rounded px-8 pt-6 pb-8 flex flex-col"
+>
+  <h1
+    class="uppercase tracking-wide text-grey-darker text-2xl text-center my-5 font-bold"
+  >
+    Your Feedback
+  </h1>
+  <form [formGroup]="yourFeedbackForm" (ngSubmit)="sendYourFeedback()">
+    <div class="-mx-3 md:flex mb-6">
+      <div class="md:w-full px-3">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-order-id"
+        >
+          OrderID
+        </label>
+        <input
+          formControlName="orderId"
+          class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
+          id="grid-address"
+          type="text"
+          placeholder="Order Id"
+        />
+      </div>
+    </div>
+    <label
+      class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+      for="grid-order-id"
+    >
+      Your Feedback
+    </label>
+    <textarea
+      id="message"
+      formControlName="feedbackText"
+      rows="4"
+      class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
+      placeholder="Write your feedback here..."
+    ></textarea>
+    <div class="-mx-3 flex-col lg:flex-row flex mb-6">
+      <div class="flex-1 px-3 lg:mb-0">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-contact-method"
+        >
+          Overall Experience
+        </label>
+        <div class="relative">
+          <select
+            formControlName="overalExperience"
+            class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded"
+            id="grid-contact-method"
+          >
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+          <div
+            class="pointer-events-none absolute top-[18px] right-0 flex items-center px-2 text-grey-darker"
+          >
+            <svg
+              class="h-4 w-4"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="-mx-3 flex-col lg:flex-row flex mb-6">
+      <div class="flex-1 px-3 lg:mb-0">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-contact-method"
+        >
+          Service Quality
+        </label>
+        <div class="relative">
+          <select
+            formControlName="serviceQuality"
+            class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded"
+            id="grid-contact-method"
+          >
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+          </select>
+          <div
+            class="pointer-events-none absolute top-[18px] right-0 flex items-center px-2 text-grey-darker"
+          >
+            <svg
+              class="h-4 w-4"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <button
+        class="p-3 mx-auto text-sm font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-600"
+        type="submit"
+      >
+        Send Feedback
+      </button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,17 @@
+<div
+  class="bg-white mx-auto w-[100%] max-w-[1000px] rounded px-8 pt-6 pb-8 flex flex-col"
+>
+  <h1
+    class="uppercase tracking-wide text-grey-darker text-2xl text-center my-5 font-bold"
+  >
+    Feedbacks:
+  </h1>
+  <ng-container *ngIf="feedbacks$ | async as feedbacks">
+    <app-feedback-item
+      *ngFor="let feedback of feedbacks"
+      [feedback]="feedback"
+    ></app-feedback-item>
+  </ng-container>
+</div>
+<!-- *ngFor="let feedback of feedbacks"
+[review]="review" -->

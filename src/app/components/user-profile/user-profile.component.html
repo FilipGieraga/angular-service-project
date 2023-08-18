@@ -1,0 +1,151 @@
+<!-- component -->
+<div
+  class="bg-white shadow-md mx-auto w-[100%] max-w-[1000px] rounded px-8 pt-6 pb-8 flex flex-col"
+>
+  <h1
+    class="uppercase tracking-wide text-grey-darker text-2xl text-center my-5 font-bold"
+  >
+    Personal Details
+  </h1>
+  <form [formGroup]="userDetailsForm" (ngSubmit)="submitChanges()">
+    <div class="-mx-3 md:flex mb-6">
+      <div class="md:w-1/2 px-3 mb-6 md:mb-0">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-first-name"
+        >
+          First Name
+        </label>
+        <input
+          formControlName="name"
+          class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3"
+          id="grid-first-name"
+          type="text"
+          placeholder="Jane"
+        />
+        <p class="text-red text-xs italic">Please fill out this fields.</p>
+      </div>
+      <div class="md:w-1/2 px-3">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-last-name"
+        >
+          Last Name
+        </label>
+        <input
+          formControlName="surname"
+          class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
+          id="grid-last-name"
+          type="text"
+          placeholder="Doe"
+        />
+      </div>
+    </div>
+    <div class="-mx-3 md:flex mb-6">
+      <div class="md:w-full px-3">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-address"
+        >
+          Address
+        </label>
+        <input
+          formControlName="address"
+          class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
+          id="grid-address"
+          type="text"
+          placeholder="Address"
+        />
+        <p class="text-grey-dark text-xs italic">Address, City, State</p>
+      </div>
+    </div>
+    <div class="-mx-3 flex-col lg:flex-row flex mb-6">
+      <div class="flex-1 px-3 mb-6 lg:mb-0">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-email"
+        >
+          Email
+        </label>
+        <input
+          formControlName="email"
+          class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
+          id="grid-email"
+          type="email"
+          placeholder="janedoe@gmail.com"
+        />
+      </div>
+      <div class="flex-1 px-3 mb-6 lg:mb-0">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-phone"
+        >
+          Phone Number
+        </label>
+        <input
+          formControlName="phone"
+          class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4"
+          id="grid-phone"
+          type="tel"
+          placeholder="999123999"
+        />
+      </div>
+      <div class="flex-1 px-3 lg:mb-0">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-contact-method"
+        >
+          Preferable Contact Method
+        </label>
+        <div class="relative">
+          <select
+            formControlName="contactMethod"
+            class="block appearance-none w-full bg-grey-lighter border border-grey-lighter text-grey-darker py-3 px-4 pr-8 rounded"
+            id="grid-contact-method"
+          >
+            <option>Email</option>
+            <option>Phone</option>
+          </select>
+          <div
+            class="pointer-events-none absolute top-[18px] right-0 flex items-center px-2 text-grey-darker"
+          >
+            <svg
+              class="h-4 w-4"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="-mx-3 md:flex mb-6">
+      <div class="md:w-full px-3">
+        <label
+          class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+          for="grid-card-details"
+        >
+          Credit Card Details
+        </label>
+        <input
+          formControlName="cardDetails"
+          class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 mb-3"
+          id="grid-card-details"
+          type="text"
+          placeholder="Credit Card Details"
+        />
+      </div>
+    </div>
+    <div class="text-center">
+      <button
+        class="p-3 mx-auto text-sm font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-600"
+        type="submit"
+      >
+        Submit Changes
+      </button>
+    </div>
+  </form>
+</div>
